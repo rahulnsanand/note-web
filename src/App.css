@@ -1,0 +1,24 @@
+/* Style all <a> tags globally */
+a {
+    color: #0056b3; /* Set your desired color */
+    text-decoration: none; /* Optional: Remove underline */
+    transition: color 250ms ease-in-out; /* Animate color change over 100ms */
+}
+  
+  /* Add hover state */
+  a:hover {
+    color: #007bff; /* Darker shade on hover */
+  }
+  
+  /* Style all <Link> components from react-router-dom */
+  .link {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  /* Optional: Add hover effect */
+  .link:hover {
+    color: #007bff;
+  }
+
+  
